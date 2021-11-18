@@ -1,0 +1,81 @@
+.wrapper {
+  /* Make the display flex, flow should be row and wrap, and align the text centered */
+  
+}
+
+.wrapper > * {
+  /* padding & margin should be 10px all around*/
+  /* flex grow will be set to 1 and shrink 100% USE SHORTHAND */
+  /* round the edges of the divs using border radius */
+
+}
+
+.header {
+  /* Make the background color 'tomato' */
+  /* 120 pixels high */
+
+}
+
+.footer {
+  /* Make the background color 'lightgreen' */
+  /* 80 pixels high */
+
+}
+
+.main {
+  /* Align text to the left */
+  /* Make the background color 'deepskyblue' */
+  /* Height should be 300 pixels */
+  /* Font size should be 24 pixels */
+
+}
+
+.aside1 {
+  /* Make the background color 'gold' */
+
+}
+
+.aside2 {
+  /* Make the background color 'hotpink' */
+
+}
+
+/* MEDIA QUERY FOR SCREENS 800PX WIDE AND LARGER */
+@media all and (min-width: 800px){
+  /* CHANGE UP THE ORDER OF EACH CLASS TO SEE WHAT LOOKS BEST */
+  /* CHANGE BACKGROUND COLORS AND MORE!! */
+  .main {
+    flex: 3;
+
+  }
+  .aside1 {
+
+  }
+  .aside2 {
+
+  }
+  .footer {
+
+  }
+}
+/* MEDIA QUERY FOR SCREENS 600PX WIDE TO 800PX (800 b/c of our media query above) */
+@media all and (min-width: 600px){
+  /* CHANGE UP THE ORDER OF EACH CLASS TO SEE WHAT LOOKS BEST */
+  /* CHANGE BACKGROUND COLORS AND MORE!! */
+  .aside{
+    flex:1;
+
+  }
+  .main {
+
+  }
+  .aside1 {
+
+  }
+  .aside2 {
+
+  }
+  .footer {
+
+  }
+}
